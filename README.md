@@ -37,8 +37,8 @@ python3 generate_map_from_gazebo_world.py \
 ```
 
 This creates:
-- `example.pgm` — The occupancy grid image
-- `example.yaml` — ROS2 map metadata
+- `example_groundtruth.pgm` — The occupancy grid image
+- `example_groundtruth.yaml` — ROS2 map metadata
 
 ### ⚠️ Limitations
 - **Mesh geometries**: Currently not supported (only box, cylinder, sphere for now)
