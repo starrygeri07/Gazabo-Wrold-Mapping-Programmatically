@@ -12,8 +12,8 @@ The traditional approach includes:
 3. Manually drive the robot around the entire Gazebo environment or let it wander on its own for a few minutes through any Autonomous Collision Avoidance algorithm.
 4. Save the map
 5. Worst thing: repeat every time you modify the world 😫
-### ✨ Features of this tool
 
+### ✨ Features of this tool
 | Feature                                     | Description                                                                     |
 | ------------------------------------------- | ------------------------------------------------------------------------------- |
 | 🤖 **Automatic Dynamic Obstacle Exclusion** | Detects and excludes models with motion plugins (planar_move, diff_drive, etc.) |
@@ -40,11 +40,12 @@ This creates:
 - `example_groundtruth.pgm` — The occupancy grid image
 - `example_groundtruth.yaml` — ROS2 map metadata
 
+In the "Example" folder, I have also uploaded `baseline.world` with which you can try for yourself, our you can just check the map files to verify its outputs.
+
 ### ⚠️ Limitations
 - **Mesh geometries**: Currently not supported (only box, cylinder, sphere for now)
-- **Heightmaps**: Not supported
 - **Multi-floor worlds**: A map is only a generated 2D projection. I have not tested how the code deals with multiple floor, so if you find it interesting to test, lemme know of the results you get, hehe.
-- No GUI interface. Works only through terminal. However, very simple command to use.
+- **No GUI interface**. Works only through terminal. However, very simple command to use.
 
 Feel free to use for any research of project you like.
 This code tool was developed during my own research for autonomous robots.
