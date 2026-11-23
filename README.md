@@ -51,5 +51,3 @@ Feel free to use for any research of project you like.
 This code tool was developed during my own research for autonomous robots.
 
 Shared with ❤️ for the robotics simulation community. Hope you'll find it helpful.
-
-### Stop doing SLAM manually for static simulation worlds. Life's too short 🚀
